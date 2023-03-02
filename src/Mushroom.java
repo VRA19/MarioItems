@@ -5,6 +5,10 @@ public class Mushroom extends Item {
         this.mushroomColor = c;
     }
 
+    public Mushroom(String name){
+        this.setName(name);
+    }
+
     @Override
     public void show(){
         setAppear(true);
